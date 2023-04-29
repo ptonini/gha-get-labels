@@ -1,0 +1,13 @@
+name: "Get Labels"
+description: ""
+runs:
+  using: "node16"
+  main: "dist/index.js"
+inputs:
+  labels:
+    description: ""
+    required: true
+  github_token:
+    description: ''
+    required: false
+    default: ${{ github.token }}

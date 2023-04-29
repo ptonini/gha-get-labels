@@ -1,0 +1,5 @@
+.idea
+src/.env
+src/event.json
+src/releases
+src/node_modules
