@@ -1,1 +1,1 @@
-# gha-add-labels# gha-get-lables
+# gha-get-labels
