@@ -1,12 +1,16 @@
-name: "Get Labels"
-description: ""
+name: Get Labels
+description: ''
 runs:
-  using: "node16"
-  main: "dist/index.js"
+  using: node16
+  main: dist/index.js
 inputs:
   labels:
-    description: ""
+    description: ''
     required: true
+  separator:
+    description: ''
+    required: false
+    default: ':'
   github_token:
     description: ''
     required: false
