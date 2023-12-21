@@ -1,8 +1,5 @@
-name: Get Labels
+name: get-labels
 description: ''
-runs:
-  using: node16
-  main: dist/index.js
 inputs:
   labels:
     description: ''
@@ -15,3 +12,6 @@ inputs:
     description: ''
     required: false
     default: ${{ github.token }}
+runs:
+  using: node16
+  main: dist/index.js
